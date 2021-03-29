@@ -22,13 +22,13 @@ public class Temperature {
             System.out.println(temperature);
             System.out.println(speed);
         }
+
         TemperatureCheck.testTemperature(tem.days,tem.temp,tem.speed);
         System.out.println(Arrays.toString(tem.temp));
         System.out.println(Arrays.toString(tem.speed));
         System.out.println(Arrays.toString(tem.days));
     }
 
-    //HERE ARE THE COMMENTS
     public double getTemperature(String day){
         double temp = 0;
         temp = Double.parseDouble(JOptionPane.showInputDialog("Please enter the temperature of the " + day));
