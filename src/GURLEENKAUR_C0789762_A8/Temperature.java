@@ -27,6 +27,8 @@ public class Temperature {
         System.out.println(Arrays.toString(tem.speed));
         System.out.println(Arrays.toString(tem.days));
     }
+
+    //HERE IS THE COMMENT
     public double getTemperature(String day){
         double temp = 0;
         temp = Double.parseDouble(JOptionPane.showInputDialog("Please enter the temperature of the " + day));
