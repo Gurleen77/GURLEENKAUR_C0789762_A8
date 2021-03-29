@@ -29,7 +29,6 @@ public class Temperature {
     }
 
     //HERE ARE THE COMMENTS
-
     public double getTemperature(String day){
         double temp = 0;
         temp = Double.parseDouble(JOptionPane.showInputDialog("Please enter the temperature of the " + day));
